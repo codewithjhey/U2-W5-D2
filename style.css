@@ -1,0 +1,50 @@
+h1 {
+  color: red;
+}
+
+.nav span {
+  background-color: aqua;
+}
+
+.jumbotron > .col-md-6 > .lead a {
+  color: yellow;
+}
+
+.blog-post:first-of-type {
+  border: 3px solid green;
+  padding: 5px;
+}
+
+.blog-post:first-of-type hr {
+  background-color: red;
+}
+
+.nav span:nth-child(2n) {
+  border: 3px solid purple;
+  padding: 3px;
+}
+
+.list-unstyled.mb-0:first-of-type [href="#"] {
+  border: 2px solid yellowgreen;
+}
+
+.blog-post:nth-child(3) p:first-of-type a {
+  color: red;
+}
+
+.blog-post:last-of-type li:nth-child(2) {
+  color: aqua;
+}
+
+.float-right {
+  color: red;
+}
+
+.blog-pagination > .btn.btn-outline-secondary {
+  color: red;
+  border: 2px solid purple;
+}
+
+.text-center a:last-of-type {
+  color: sienna;
+}
