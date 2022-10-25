@@ -2,7 +2,7 @@ h1 {
   color: red;
 }
 
-.nav span {
+.nav > span {
   background-color: aqua;
 }
 
@@ -20,7 +20,7 @@ h1 {
 }
 
 .nav span:nth-child(2n) {
-  border: 3px solid purple;
+  border: 3px solid black;
   padding: 3px;
 }
 

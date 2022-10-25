@@ -27,3 +27,20 @@ window.onload = () => {
   )
   removeTwitter.remove()
 }
+
+let addNewBlog = function () {
+  let mainDiv = document.querySelector("div.col-md-8")
+  let addDiv = document.createElement("div")
+  mainDiv.appendChild(addDiv)
+  addDiv.classList.add("blog-post")
+  let addH2 = document.createElement("h2")
+  addH2.innerText = "New Blog"
+  addH2.classList.add("blog-post-title")
+  let addP = document.createElement("p")
+  addP.innerText = "Some Text Inside P"
+  addP.classList.add("blog-post-meta")
+  addDiv.appendChild(addH2)
+  addDiv.appendChild(addP)
+}
+
+addNewBlog()
