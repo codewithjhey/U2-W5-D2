@@ -28,6 +28,14 @@ window.onload = () => {
   removeTwitter.remove()
 }
 
+function removeFirst50() {
+  const blogPosts = document.querySelectorAll(".blog-post p:nth-child(3)")
+  for (let i = 0; i < blogPosts.length; i++) {
+    let text = blogPosts[i].innerText
+    blogPosts[i].innerText = text.slice(50)
+  }
+}
+
 let addNewBlog = function () {
   let mainDiv = document.querySelector("div.col-md-8")
   let addDiv = document.createElement("div")
